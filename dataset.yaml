@@ -1,0 +1,6 @@
+path: .
+train: images/train
+val: images/val
+test: images/test
+nc: 5
+names: ['shahed_136', 'shahed_238', 'mq9_reaper', 'dji_mavic', 'mohajer_6']
