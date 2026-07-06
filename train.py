@@ -7,10 +7,10 @@ def main():
 
     model.train(
         data="dataset.yaml",
-        epochs=50,
-        imgsz=960,
+        epochs=40,
+        imgsz=640,
         batch=8,
-        device="cpu",
+        device=0,
         project="runs",
         name="airspace_detector",
         exist_ok=True
